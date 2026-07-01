@@ -91,7 +91,7 @@ const Shop = () => {
         <h3 className="text-sm font-bold uppercase tracking-wider text-slate-800">Categories</h3>
         <div className="flex flex-col space-y-1.5">
           <button
-            onClick={() => updateFilters({ category: '' })}
+            onClick={() => updateFilters({ category: '', keyword: '' })}
             className={`text-left text-sm py-1 font-medium transition-colors ${
               category === '' ? 'text-indigo-600 font-bold' : 'text-slate-500 hover:text-slate-800'
             }`}
@@ -101,7 +101,7 @@ const Shop = () => {
           {categories.map((cat) => (
             <button
               key={cat._id}
-              onClick={() => updateFilters({ category: cat.slug })}
+              onClick={() => updateFilters({ category: cat.slug, keyword: '' })}
               className={`text-left text-sm py-1 font-medium transition-colors ${
                 category === cat.slug ? 'text-indigo-600 font-bold' : 'text-slate-500 hover:text-slate-800'
               }`}

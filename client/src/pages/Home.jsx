@@ -83,22 +83,22 @@ const Home = () => {
       id: "school-supplies",
       title: "Must-haves for every student",
       linkText: "Shop Back to School",
-      link: "/shop?keyword=backpack",
+      link: "/shop?category=school-supplies",
       items: [
         { name: "Backpacks", img: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400&q=80", link: "/shop?keyword=backpack" },
-        { name: "Electronics", img: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&q=80", link: "/shop?keyword=accessories" },
-        { name: "Stationery", img: "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=400&q=80", link: "/shop?keyword=stationery" },
-        { name: "Fashion", img: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&q=80", link: "/shop?category=womens" }
+        { name: "Electronics", img: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&q=80", link: "/shop?keyword=headphones" },
+        { name: "Stationery", img: "https://images.unsplash.com/photo-1531346878377-a5be20888e57?w=400&q=80", link: "/shop?keyword=organizer" },
+        { name: "Fashion", img: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&q=80", link: "/shop?category=fashion-trends" }
       ]
     },
     {
       id: "gaming-tech",
       title: "Get your game on",
       linkText: "Shop Gaming & Tech",
-      link: "/shop?keyword=controller",
+      link: "/shop?category=gaming-tech",
       items: [
         { name: "Controllers", img: "https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?w=400&q=80", link: "/shop?keyword=controller" },
-        { name: "Headsets", img: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&q=80", link: "/shop?keyword=headset" },
+        { name: "Headsets", img: "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&q=80", link: "/shop?keyword=headphones" },
         { name: "Keyboards", img: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&q=80", link: "/shop?keyword=keyboard" },
         { name: "Mice", img: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=400&q=80", link: "/shop?keyword=mouse" }
       ]
@@ -107,7 +107,7 @@ const Home = () => {
       id: "kitchen-essentials",
       title: "Top categories in Kitchen",
       linkText: "Explore Kitchen",
-      link: "/shop?keyword=cooker",
+      link: "/shop?category=kitchen-essentials",
       items: [
         { name: "Kettles", img: "https://images.unsplash.com/photo-1577937927133-66ef06acdf18?w=400&q=80", link: "/shop?keyword=kettle" },
         { name: "Cookers", img: "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=400&q=80", link: "/shop?keyword=cooker" },
@@ -119,12 +119,12 @@ const Home = () => {
       id: "fashion-trends",
       title: "Fashion trends you like",
       linkText: "Explore More",
-      link: "/shop?category=mens",
+      link: "/shop?category=fashion-trends",
       items: [
         { name: "Jackets", img: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&q=80", link: "/shop?keyword=jacket" },
-        { name: "Shoes", img: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80", link: "/shop?keyword=shoe" },
-        { name: "Dresses", img: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&q=80", link: "/shop?keyword=dress" },
-        { name: "Knitwear", img: "https://images.unsplash.com/photo-1574164904299-3a102b110380?w=400&q=80", link: "/shop?keyword=knitwear" }
+        { name: "Shoes", img: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&q=80", link: "/shop?keyword=sneakers" },
+        { name: "Sunglasses", img: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&q=80", link: "/shop?keyword=sunglasses" },
+        { name: "Knitwear", img: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=400&q=80", link: "/shop?keyword=sweater" }
       ]
     }
   ];
