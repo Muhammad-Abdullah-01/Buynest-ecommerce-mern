@@ -172,7 +172,7 @@ const productsData = [
     stock: 30,
     ratings: 5,
     numReviews: 21,
-    images: [{ url: 'https://images.unsplash.com/photo-1574164904299-3a102b110380?w=600&q=80', publicId: 'seeder/knitwear' }]
+    images: [{ url: 'https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=600&q=80', publicId: 'seeder/knitwear' }]
   }
 ];
 
