@@ -52,6 +52,11 @@ const ProductDetail = () => {
     addToCart(product, quantity);
   };
 
+  const handleWishlistClick = (e) => {
+    e.preventDefault();
+    toggleWishlist(product._id);
+  };
+
   return (
     <div className="space-y-8 pb-12">
       {/* Back Link */}
