@@ -4,6 +4,13 @@ BuyNest is a premium, high-end e-commerce application built with the MERN stack 
 
 ---
 
+## 🌐 Live Deployments
+
+*   **Live Storefront**: [https://buynest-ecommerce-mern.vercel.app](https://buynest-ecommerce-mern.vercel.app)
+*   **Production API Service**: [https://buynest-backend-gjru.onrender.com](https://buynest-backend-gjru.onrender.com)
+
+---
+
 ## 🚀 Key Features
 
 *   **Secure Authentication**: Role-based access control (User & Admin) with automated JWT token rotation (Access Token in-memory, HTTP-Only Refresh Token cookies).
